@@ -53,6 +53,8 @@ nav button{
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
+  font-weight: 600;
+  cursor: pointer;
 
 }
 
@@ -93,6 +95,7 @@ nav button{
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+cursor: pointer;
 }
 
 
@@ -253,5 +256,21 @@ text-align: center;
   padding: 10px 10px 10px 10px;
   padding: 0 20px;
   border: none;
+}
+
+/* footer Styles  */
+
+footer{
+  background: rgba(13, 19, 33, 0.03);
   
+}
+.footer-content{
+  width: 1140px;
+  margin: 0 auto;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid Black; */
+  padding: 10px;
 }
