@@ -96,6 +96,7 @@ text-align: center;
 }
 
 
+/* why-web-development Styles  */
 
 .why-web-development-section{
  
@@ -121,6 +122,7 @@ text-align: center;
 }
 .card-1-item-1 p {
  margin: 40px 0;
+ opacity: 0.7;
 }
 
 .card-1-item-1 button {
@@ -135,4 +137,27 @@ text-align: center;
   gap: 30px;
 }
 
+/* My Inspiration Styles  */
+
+.my-ins-heading{
+  margin-bottom: 40px;
+}
+
+.video-container{
+  width: 1076px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 40px; */
+  margin-bottom: 80px;
+}
+
+.video-container iframe {
+  padding: 20px;
+  border-radius: 16px;
+  /* padding: 20px; */
+}
 
