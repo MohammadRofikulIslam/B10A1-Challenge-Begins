@@ -202,3 +202,23 @@ text-align: center;
   color: black;
   font-weight: 700;
 }
+
+/* My Next Target Styles  */
+
+.next-target-card{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 2px solid black;
+  gap: 30px;
+  padding: 40px;
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+margin: 20px 0;
+}
+#h4 {
+  font-size: 20px;
+  font-weight: 800;
+}
