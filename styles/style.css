@@ -152,7 +152,7 @@ text-align: center;
   justify-content: center;
   align-items: center;
   /* padding: 40px; */
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .video-container iframe {
@@ -161,3 +161,44 @@ text-align: center;
   /* padding: 20px; */
 }
 
+/* My Current Target Styles  */
+.current-target-container{ 
+  margin: 40px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.current-target-container #html{
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 20px;
+}
+.current-target-container #css{
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);  
+  padding: 20px;
+}
+.current-target-container #javaScript{
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 20px;
+}
+
+.current-target-container img{
+  margin-top: 10px;
+}
+.current-target-container h4{
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.current-target-container p {
+  opacity: 0.7;
+  margin: 20px 0;
+}
+
+.current-target-container a {
+  color: black;
+  font-weight: 700;
+}
